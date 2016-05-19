@@ -1,0 +1,40 @@
+/*header styling*/
+.head {
+	border: 1px solid green;
+}
+
+.head li {
+	display: inline;
+	margin-right: 5em;
+}
+
+.disabled {
+	color: gray;
+}
+
+.disabled a {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+ {
+	color: red;
+}
+/*The sibling h4 of the red element should have a background color of red
+The sibling h4 of the blue element should have background color of blue
+*/
+.grandparent > h4 {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.promo {
+	font-weight: bold;
+	color: gold;
+}
+
+input {
+	height: 25px;
+}
